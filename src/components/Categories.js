@@ -8,4 +8,4 @@ const categories = [
     "technology",
 ]
 
-export default categories
+export default categories;
