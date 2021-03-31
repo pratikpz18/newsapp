@@ -3,10 +3,10 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import categories from './Categories';
 
 const Dropdown = () => {
-    
+
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="/Home">News App</Navbar.Brand>
+            <Navbar.Brand href="/NewsContainer">News App</Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto ml-auto " >
                     <NavDropdown title="Categories" id="basic-nav-dropdown">
