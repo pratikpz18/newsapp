@@ -3,6 +3,7 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import categories from './Categories';
 
 const Dropdown = () => {
+    
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="/Home">News App</Navbar.Brand>
