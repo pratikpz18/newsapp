@@ -1,5 +1,6 @@
 # News-App
 Created using [News API] (https://newsapi.org/)
+[Live Demo](https://pratikpz18.github.io/newsapp/) its not rendering news because newsapi dont allow i guess.
 # Setup:
 * Run `npm install` for installing all dependencies
 * Go to [News API] (https://newsapi.org/) signin for Api Key
