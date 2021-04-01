@@ -5,7 +5,7 @@ import categories from './Categories';
 const Dropdown = ({setCategory}) => {
 
     return(
-        <Navbar expand="lg" className="Navbar">
+        <Navbar className="Navbar">
             <Navbar.Brand href="/NewsContainer" className="brand">News App</Navbar.Brand>
                 <Nav className="Nav" >
                     <NavDropdown title="Categories" id="basic-nav-dropdown" className="NavDropdown">
