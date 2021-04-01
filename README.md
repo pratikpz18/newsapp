@@ -9,14 +9,16 @@ Created using [News API] (https://newsapi.org/)
 ## ScreenShots :
 - Default
 <img src="Screenshots/2021-04-01.png" alt="Default Page">
+
 - Selecting Category
 <img src="Screenshots/2021-04-01 (1).png" alt="Category Page">
+
 - Responsive
 <img src="Screenshots/2021-04-01 (2).png" alt="Responsive Img">
 
 
 # Features:
-..*
+----
 * Select Particular Category Accordingly News For that will be displayed.
 * For Full Article click Read More
 * Responsive
