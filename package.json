@@ -1,6 +1,6 @@
 {
-  "homepage": "https://pratikpz18.github.io/Short-News-App/",
   "name": "newsapp",
+  "homepage": "https://pratikpz18.github.io/newsapp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
