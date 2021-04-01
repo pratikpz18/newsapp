@@ -6,8 +6,19 @@ Created using [News API] (https://newsapi.org/)
 * Add that Api key in API_KEY inside NewsContainer folder
 * `npm start` to run appliction ans visit http://localhost:3000/
 
+## ScreenShots :
+- Default
+<img src="Screenshots/2021-04-01.png" alt="Default Page">
+
+- Selecting Category
+<img src="Screenshots/2021-04-01 (1).png" alt="Category Page">
+
+- Responsive
+<img src="Screenshots/2021-04-01 (2).png" alt="Responsive Img">
+
+
 # Features:
-..*
+----
 * Select Particular Category Accordingly News For that will be displayed.
 * For Full Article click Read More
 * Responsive
