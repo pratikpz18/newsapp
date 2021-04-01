@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   background-color: rgb(241, 240, 240);
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .App-logo {
@@ -38,26 +40,65 @@
   }
 }
 
-.cardcolumn{
-  column-count: 1;
+.Navbar{
+  background-color: var(--gray);
+}
+
+.navbar-light .navbar-brand {
+  color: var(--light);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: lightgray;
+  transform: scale(1.03);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--light);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: lightgray;
+}
+
+.Nav{
+  color: var(--light);
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.NavDropdown{
+  color: white;
+}
+
+.Dropdown{
+  padding-top: 4px ;
+  font-size: 16px;
+  text-transform: capitalize;
 }
 
 .card{
-  margin: 14px 14px 0 0;
+  width: 32%;
+  margin: 0 15px 0 0;
   box-shadow: 0 0 14px rgba(0,0,0,0.2);
   border-radius: 8px;
 }
 
-.card-img{
-  height: 230px !important;
-  border-radius: 8px;
+.card-img-top{
+  border-radius: 10px;
+  height: 240px;
+  padding: 8px 0 0 0;
 }
 
 .card-title{
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.blockquote{
+.card-text{
   font-size: 12px;
 }
 
@@ -66,6 +107,24 @@
 }
 
 .card-button{
+  margin:0 auto  10px auto;
+  text-align: center;
+  width: 35%;
   font-size: 12px;
-  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1100px) {
+  .card{
+    width: 48%;
+    margin:0 6px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .card{
+    width: 100%;
+  }
+  .Nav{
+    margin-right: 4px;
+  }
 }
